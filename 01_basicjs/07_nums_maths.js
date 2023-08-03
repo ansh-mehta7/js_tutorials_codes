@@ -1,5 +1,5 @@
 
-/*
+
 const score=400
 const balance= new Number(1000)
 console.log(balance);
@@ -19,7 +19,7 @@ console.log(otherNumber3.toPrecision(3));
 const hundreds=10000000
 console.log(hundreds.toLocaleString('en-IN')); // according to inr
 
-*/
+
 console.log(Math.abs(-4));
 console.log(Math.floor(4.742)); // we can use ceil and floor in js to round off 
 

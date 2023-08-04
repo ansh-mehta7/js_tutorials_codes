@@ -7,10 +7,13 @@ const gameName= new String("ans/h/meh/ta")// objectr invoking
 console.log(gameName[0]); // key value pair 
 
 
-// string objects 
+// string accessing methods
 console.log(gameName.toUpperCase());
+
 console.log(gameName.charAt(4));
+
 console.log(gameName.indexOf('m'));
+
  const newString=gameName.substring(0,4)
  console.log(newString);
 // slice can have negative values 

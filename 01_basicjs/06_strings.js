@@ -30,3 +30,6 @@ console.log(url.replace('%20','007'))
 
 // we can convert the string that will return in array in array we want to split in diff parts 
 console.log(gameName.split('/'));
+
+var ansh="mehtansh"
+ansh.slice(0,1)

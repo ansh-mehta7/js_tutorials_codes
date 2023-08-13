@@ -1,8 +1,8 @@
 const score = 400;
 const balance = new Number(1000); // accessing through new object
 console.log(balance);
-console.log(balance.toString().length); // it has now become string
-console.log(balance.toFixed(2)); // precision  af ter decimal value
+console.log(balance.toString().length); // it has now become string we can acces varioius string properties now 
+console.log(balance.toFixed(2)); // precision  after decimal value 
 
 const otherNumber = 23.9393;
 //23.9

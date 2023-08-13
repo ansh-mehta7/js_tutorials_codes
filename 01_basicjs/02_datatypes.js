@@ -1,4 +1,4 @@
-"use strict";// treat all js code as newer version
+"use strict";// treat all js code as newer version 
 
  // alert(3+3)  we are using node js not browser 
  console.log(4+4) 
@@ -38,12 +38,17 @@ const heros=["ronaldo ,jordan ,schwarzennager"] // refrence type
 let myobj={
     name :"ansh mehta ",
      age:20,
+     // datatype can be anyting from bolean to function to array as well as another object as well 
 }
 // functions in js csn also be given a variable value 
  const myFunction= function(){
     console.log("cristiano ronaldo ");
  }
+// using function keyword 
 
+ // all non premitive data types are of object typeof 
+
+ 
 console.log(typeof myFunction);// return function object 
 console.log(typeof heros); // return objects 
 // symbols will retun the symbol return type 

@@ -2,19 +2,22 @@ let score ="ansh"
 // if the score would have been null  will give =>0
 // or undefined the tyoe would have been =>NaN
 
-//console.log(typeof score);
- // console.log(typeof (score)); // type number 
+console.log(typeof score);
+  console.log(typeof (score)); // type number  
 
 let valuerInNumber= Number(score) // converting the string in number 
-//console.log(typeof valuerInNumber); // type number 
+console.log(typeof valuerInNumber); // type number 
  
 //console.log(valuerInNumber);  // NaN value is not a number 
 // "33"-> 33
-// "33abdjd"-> nan
+// "33abdjd"-> nan not a number par ye conevert ho jaega type of me number aa jaega 
 // "true"  =1 
+score=null
+console.log(score);
+
 
 // let isLoggedin= 1
-let isLoggedin=""
+let isLoggedin="" // empty string boolean conversion will give false and other will gove true 
 let boolenIsLoggedin= Boolean(isLoggedin) // type conversion of 1 into true 
 // BOOLEAN would give 0 1 according to true or false 
 // console.log(boolenIsLoggedin);
@@ -36,9 +39,9 @@ let str1 ="hello"
 let str2=" mehta"
 let str3= str1+str2
 // console.log(str3);
-// console.log("1"+2);
-console.log(1+"2"+2);
-
+// console.log("1"+2);  12 
+console.log(1+"2"+2);// 122
+// 
 let gamecounter=100
 gamecounter++
 console.log(gamecounter);

@@ -11,7 +11,7 @@ const user={
 user.welcomeMessage()
  console.log(this); // the current context is the empty object in node enviornment
 
- in  browser consoloe.log(this) gives us the window as the global object.
+ //in  browser consoloe.log(this) gives us the window as the global object.
  function chai(){
   const username="SUITS"
     console.log(this.username); // undefined  because this context only works in objects 

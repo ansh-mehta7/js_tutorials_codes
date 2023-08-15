@@ -12,7 +12,7 @@
  console.log(this); // the current context is the empty object 
 
  function chai(){
-  const username="harvey"
+  const username="SUITS"
     console.log(this);
 }
 chai()

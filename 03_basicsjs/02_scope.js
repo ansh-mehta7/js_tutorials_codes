@@ -34,5 +34,5 @@ function addone(num){
 
 console.log(addtwo(5)); // Cannot access 'addtwo' before initialization
 const addtwo=function (num){
-    return num+2
+    return num+2;
 }

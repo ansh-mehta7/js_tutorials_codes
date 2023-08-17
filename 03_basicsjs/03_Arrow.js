@@ -31,6 +31,11 @@ chai()
 //   console.log(Add(2,3));
 
   
-  const Add= (num1 ,num2)=>  (num1+num2) ; // implicit return without return keyword
+  // const Add= (num1 ,num2)=>  (num1+num2) ; // implicit return without return keyword
 
-      console.log(Add(2,3));
+  //     console.log(Add(2,3));
+
+// how to return objects like these 
+const Add= (num1 ,num2)=> ({naam:"ansh"} ) ; // implicit return without return keyword
+// we cant return objects like these we have to use parenthesis without the return keyword 
+console.log(Add(2,3));
